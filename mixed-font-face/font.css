@@ -1,51 +1,53 @@
+@charset "UTF-8";
+
 /* CJK Unified Ideographs U+4E00-U+9FFF */
 @font-face {
   font-family: sans-serif;
-  src: local(Heiti TC);
+  src: local(Heiti TC), local("微軟正黑體"), local("Microsoft JhengHei");
   unicode-range: U+4E00-9FFF;
 }
 
 @font-face {
   font-family: serif;
-  src: local(LiSong Pro);
+  src: local(LiSong Pro), local("新細明體"), local("PMingLiU");
   unicode-range: U+4E00-9FFF;
 }
 
 /* Japanese Kana U+3040-U+30FF */
 @font-face {
   font-family: sans-serif;
-  src: local(Hiragino Kaku Gothic Pro);
+  src: local(Hiragino Kaku Gothic Pro), local(Meiryo);
   unicode-range: U+3040-30FF;
 }
 
 @font-face {
   font-family: serif;
-  src: local(Hiragino Mincho Pro);
+  src: local(Hiragino Mincho Pro), local(MS PMincho);
   unicode-range: U+3040-30FF;
 }
 
 /* Bopomofo U+3105-U+312C */
 @font-face {
   font-family: sans-serif;
-  src: local(LiHei Pro);
+  src: local(LiHei Pro), local("微軟正黑體"), local(Microsoft JhengHei);
   unicode-range: U+3105-312C;
 }
 
 @font-face {
   font-family: serif;
-  src: local(LiSong Pro);
+  src: local(LiSong Pro), local("新細明體"), local(PMingLiU);
   unicode-range: U+3105-312C;
 }
 
 /* Latin, Latin1, Latin Ext-A, Latin Ext-B */
 @font-face {
   font-family: sans-serif;
-  src: local(Helvetica);
+  src: local(Helvetica), local(Arial);
   unicode-range: U+00-024F;
 }
 
 @font-face {
   font-family: serif;
-  src: local(Times);
+  src: local(Times), local(Times New Roman);
   unicode-range: U+00-024F;
 }
